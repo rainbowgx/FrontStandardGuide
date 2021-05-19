@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>前端开发规范</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="铁谷科技有限公司前端代码规范">
+    
+    <link rel="preload" href="/FrontStandardGuide/assets/css/0.styles.49bd73ce.css" as="style"><link rel="preload" href="/FrontStandardGuide/assets/js/app.596a67a8.js" as="script"><link rel="preload" href="/FrontStandardGuide/assets/js/2.944b729b.js" as="script"><link rel="preload" href="/FrontStandardGuide/assets/js/11.1c4f0adc.js" as="script"><link rel="prefetch" href="/FrontStandardGuide/assets/js/10.f9d38159.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/12.5564203b.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/13.4af93ebb.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/14.fd1945b4.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/3.b8d59c98.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/4.e7c996f5.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/5.6eff8140.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/6.17d5dd20.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/7.6b7cc238.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/8.d8ee4c19.js"><link rel="prefetch" href="/FrontStandardGuide/assets/js/9.d22fcc9b.js">
+    <link rel="stylesheet" href="/FrontStandardGuide/assets/css/0.styles.49bd73ce.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/FrontStandardGuide/" class="home-link router-link-active"><!----> <span class="site-name">前端开发规范</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/FrontStandardGuide/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/FrontStandardGuide/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/FrontStandardGuide/Naming/" class="sidebar-link">命名规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FrontStandardGuide/Naming/#项目命名" class="sidebar-link">项目命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/Naming/#目录命名" class="sidebar-link">目录命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/Naming/#javascript文件命名" class="sidebar-link">JavaScript文件命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/Naming/#css-scss文件命名" class="sidebar-link">css,scss文件命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/Naming/#html文件命名" class="sidebar-link">HTML文件命名</a></li></ul></li><li><a href="/FrontStandardGuide/html/" class="sidebar-link">HTMl命名</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FrontStandardGuide/html/#语法" class="sidebar-link">语法</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/html/#html5-doctype" class="sidebar-link">HTML5 doctype</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/html/#引入-css-和-javascript" class="sidebar-link">引入 CSS 和 JavaScript</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/html/#属性顺序" class="sidebar-link">属性顺序</a></li></ul></li><li><a href="/FrontStandardGuide/css/" class="sidebar-link">CSS命名</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#命名" class="sidebar-link">命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#选择器" class="sidebar-link">选择器</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#代码组织" class="sidebar-link">代码组织</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#尽量使用缩写属性" class="sidebar-link">尽量使用缩写属性</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#每个选择器及属性独占一行" class="sidebar-link">每个选择器及属性独占一行</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#省略-0-后面的单位" class="sidebar-link">省略 0 后面的单位</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/css/#避免使用-id-选择器及全局标签选择器防止污染全局样式" class="sidebar-link">避免使用 ID 选择器及全局标签选择器防止污染全局样式</a></li></ul></li><li><a href="/FrontStandardGuide/javascript/" aria-current="page" class="active sidebar-link">javaScript规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#命名" class="sidebar-link">命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#使用-es6-7" class="sidebar-link">使用 ES6,7</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#括号" class="sidebar-link">括号</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#undefined-判断" class="sidebar-link">undefined 判断</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#条件判断和循环最多三层" class="sidebar-link">条件判断和循环最多三层</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#this-的转换命名" class="sidebar-link">this 的转换命名</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#慎用-console-log" class="sidebar-link">慎用 console.log</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/javascript/#杂项" class="sidebar-link">杂项</a></li></ul></li><li><a href="/FrontStandardGuide/vue-compent/" class="sidebar-link">VUE组件规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#组件规范" class="sidebar-link">组件规范</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#模板中使用简单的表达式" class="sidebar-link">模板中使用简单的表达式</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#指令都使用缩写形式" class="sidebar-link">指令都使用缩写形式</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#标签顺序保持一致" class="sidebar-link">标签顺序保持一致</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#必须为-v-for-设置键值-key" class="sidebar-link">必须为 v-for 设置键值 key</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#v-show-与-v-if-选择" class="sidebar-link">v-show 与 v-if 选择</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#script-标签内部结构顺序" class="sidebar-link">script 标签内部结构顺序</a></li><li class="sidebar-sub-header"><a href="/FrontStandardGuide/vue-compent/#vue-router-规范" class="sidebar-link">Vue Router 规范</a></li></ul></li><li><a href="/FrontStandardGuide/vue-czo/" class="sidebar-link">czo项目规范</a><ul class="sidebar-sub-headers"></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="命名"><a href="#命名" class="header-anchor">#</a> 命名</h2> <h3 id="采用小写驼峰命名-lowercamelcase-代码中的命名均不能以下划线-也不能以下划线或美元符号结束"><a href="#采用小写驼峰命名-lowercamelcase-代码中的命名均不能以下划线-也不能以下划线或美元符号结束" class="header-anchor">#</a> 采用小写驼峰命名 lowerCamelCase，代码中的命名均不能以下划线，也不能以下划线或美元符号结束</h3> <p>反例： <code>_name / name_ / name$</code></p> <h3 id="方法名、参数名、成员变量、局部变量都统一使用-lowercamelcase-风格-必须遵从驼峰形式。"><a href="#方法名、参数名、成员变量、局部变量都统一使用-lowercamelcase-风格-必须遵从驼峰形式。" class="header-anchor">#</a> 方法名、参数名、成员变量、局部变量都统一使用 lowerCamelCase 风格，必须遵从驼峰形式。</h3> <p>正例： <code>localValue / getHttpMessage() / inputUserId</code></p> <p><em>其中 method 方法命名必须是 动词 或者 动词+名词 形式</em></p> <p>正例：<code>saveShopCarData /openShopCarInfoDialog</code></p> <p>反例：<code>save / open / show / go</code></p> <p><em>特此说明，增删查改，详情统一使用如下 5 个单词，不得使用其他（目的是为了统一各个端）</em></p> <p><code>add / update / delete / detail / get</code></p> <p>附： 函数方法常用的动词:</p> <div class="language- extra-class"><pre class="language-text"><code>get 获取
+set 设置
+add 增加
+remove 删除
+create 创建
+destory 移除
+start 启动
+stop 停止
+open 打开
+close 关闭
+read 读取
+write 写入
+load 载入
+save 保存
+create 创建
+destroy 销毁
+begin 开始
+end 结束
+backup 备份
+restore 恢复
+import 导入
+export 导出
+split 分割
+merge 合并
+inject 注入
+extract 提取,
+attach 附着/detach 脱离
+bind 绑定
+separate 分离
+view 查看
+browse 浏览
+edit 编辑
+modify 修改
+select 选取
+mark 标记
+copy 复制
+paste 粘贴
+undo 撤销
+redo 重做
+insert 插入
+delete 移除
+add 加入
+append 添加
+clean 清理
+clear 清除
+index 索引
+sort 排序
+find 查找
+search 搜索
+increase 增加
+decrease 减少
+play 播放
+pause 暂停
+launch 启动
+run 运行
+compile 编译
+execute 执行
+debug 调试
+trace 跟踪
+observe 观察
+listen 监听
+build 构建
+publish 发布
+input 输入
+output 输出
+encode 编码
+decode 解码
+encrypt 加密
+decrypt 解密
+compress 压缩
+decompress 解压缩
+pack 打包
+unpack 解包
+parse 解析
+emit 生成
+connect 连接
+disconnect 断开
+send 发送
+receive 接收
+download 下载
+upload 上传
+refresh 刷新
+synchronize 同步
+update 更新
+revert 复原
+lock 锁定
+unlock 解锁
+check out 签出
+check in 签入
+submit 提交
+commit 交付
+push 推
+pull 拉
+expand 展开
+collapse 折叠
+begin 起始
+end 结束
+start 开始
+finish 完成
+enter 进入
+exit 退出
+abort 放弃
+quit 离开
+obsolete 废弃
+depreciate 废旧
+collect 收集
+aggregate 聚集
+</code></pre></div><h3 id="变量命名"><a href="#变量命名" class="header-anchor">#</a> 变量命名</h3> <ul><li>标准变量采用驼峰标识</li> <li>使用的ID的地方一定全大写</li> <li>使用的URL的地方一定全大写, 比如说 reportURL</li> <li>涉及Android的，一律大写第一个字母</li> <li>涉及iOS的，一律小写第一个，大写后两个字母</li> <li>常量采用大写字母，下划线连接的方式</li> <li>构造函数，大写第一个字母</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> thisIsMyName<span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> goodID<span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> AndroidVersion<span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> iOSVersion<span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> <span class="token constant">MAX_COUNT</span> <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="使用-es6-7"><a href="#使用-es6-7" class="header-anchor">#</a> 使用 ES6,7</h2> <p>必须优先使用 ES6,7 中新增的语法糖和函数。这将简化你的程序，并让你的代码更加灵活和可复用。</p> <p>必须强制使用 ES6, ES7 的新语法，比如箭头函数、await/async ， 解构， let ， for…of 等等</p> <h2 id="括号"><a href="#括号" class="header-anchor">#</a> 括号</h2> <p>下列关键字后必须有大括号（即使代码块的内容只有一行）：if, else, for, while, do, switch, try, catch, finally, with。</p> <p>正例：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>反例：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token function">doSomething</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="undefined-判断"><a href="#undefined-判断" class="header-anchor">#</a> undefined 判断</h2> <p>永远不要直接使用 undefined 进行变量判断；使用 typeof 和字符串’undefined’对变量进行判断。</p> <p>正例：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> person <span class="token operator">===</span> <span class="token string">'undefined'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>反例：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>person <span class="token operator">===</span> <span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="条件判断和循环最多三层"><a href="#条件判断和循环最多三层" class="header-anchor">#</a> 条件判断和循环最多三层</h2> <p>条件判断能使用三目运算符和逻辑运算符解决的，就不要使用条件判断，但是谨记不要写太长的三目运算符。如果超过 3 层请抽成函数，并写清楚注释。</p> <h2 id="this-的转换命名"><a href="#this-的转换命名" class="header-anchor">#</a> this 的转换命名</h2> <p>对上下文 this 的引用只能使用’self’来命名</p> <h2 id="慎用-console-log"><a href="#慎用-console-log" class="header-anchor">#</a> 慎用 console.log</h2> <p>在项目打包前将console.log进行删除,因为 console.log 大量使用会有性能问题，所以在非 webpack 项目中谨慎使用 log 功能</p> <h2 id="杂项"><a href="#杂项" class="header-anchor">#</a> 杂项</h2> <ul><li>完全避免 == != 的使用， 用严格比较条件 === !==</li> <li>eval 非特殊业务， 禁用！！！</li> <li>with 非特殊业务， 禁用！！！</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/FrontStandardGuide/css/" class="prev">
+        CSS命名
+      </a></span> <span class="next"><a href="/FrontStandardGuide/vue-compent/">
+        VUE组件规范
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/FrontStandardGuide/assets/js/app.596a67a8.js" defer></script><script src="/FrontStandardGuide/assets/js/2.944b729b.js" defer></script><script src="/FrontStandardGuide/assets/js/11.1c4f0adc.js" defer></script>
+  </body>
+</html>
